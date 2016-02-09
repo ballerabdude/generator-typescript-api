@@ -1,0 +1,18 @@
+{
+  "name": "generator-typescript-api",
+  "version": "0.0.0",
+  "description": "A generator to for API'S built with TypeScript",
+  "homepage": "",
+  "author": {
+    "name": "Abdul Hagi",
+    "email": "Abdul.hagi@hotmail.com.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    ""
+  ]
+}
