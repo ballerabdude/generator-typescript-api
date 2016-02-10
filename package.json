@@ -14,5 +14,13 @@
   "main": "generators/index.js",
   "keywords": [
     ""
-  ]
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^4.3.0",
+    "mkdirp": "^0.5.1",
+    "slugg": "^0.1.2",
+    "yeoman-generator": "^0.22.5",
+    "yosay": "^1.1.0"
+  }
 }

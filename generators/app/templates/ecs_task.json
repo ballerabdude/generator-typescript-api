@@ -1,0 +1,24 @@
+{
+    "family": "api",
+    "containerDefinitions": [
+        {
+            "image": "registry.findlocus.com/<%= appName %>:latest",
+            "name": "api",
+            "cpu": 20,
+            "memory": 400,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 8000,
+                    "hostPort": 8000
+                }
+            ],
+            "environment": [
+                {
+                    "name": "",
+                    "value": ""
+                }
+            ]
+        }
+    ]
+}

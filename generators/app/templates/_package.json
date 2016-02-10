@@ -1,0 +1,28 @@
+{
+  "name": "<%= appName %>",
+  "version": "1.0.0",
+  "description": "<%= appName %> API",
+  "main": "app/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdul Hagi",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.10.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "boom": "^3.1.1",
+    "hapi": "^11.1.4",
+    "hapi-swagger": "^3.0.1",
+    "inert": "^3.2.0",
+    "joi": "^7.1.0",
+    "mongoose": "^4.3.4",
+    "multiparty": "^4.1.2",
+    "vision": "^4.0.1"
+  }
+}
