@@ -8,7 +8,7 @@ export default class <%= scaffoldName.capital  %>Route extends BaseRoute impleme
   routes: Hapi.IRouteConfiguration[];
 
   constructor(server: Hapi.Server) {
-    var nameController = new <%= scaffoldName.capital  %>Controller();
+    var <%= scaffoldName.lower  %>Controller = new <%= scaffoldName.capital  %>Controller();
     this.routes = [
       {
         method: 'GET',
